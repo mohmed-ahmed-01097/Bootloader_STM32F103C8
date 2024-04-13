@@ -99,7 +99,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  BL_Send("Hello Bootloader");
+	  BL_Fetch_Host_Command();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
